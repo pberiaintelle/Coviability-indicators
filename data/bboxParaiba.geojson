@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "bboxParaiba",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4674" } },
+"features": [
+{ "type": "Feature", "properties": { "FID": 0 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -34.74, -6.369 ], [ -34.74, -7.709 ], [ -35.633, -7.709 ], [ -35.633, -6.369 ], [ -34.74, -6.369 ] ] ] ] } }
+]
+}
