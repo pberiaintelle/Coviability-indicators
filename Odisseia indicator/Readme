@@ -1,2 +1,2 @@
 ####README file#####
-App showing choropleth maps of 4 indicators from the Odisseia dataset. Uses preprocessed municipality data and preprocessed Odisseia data (only selected indicators and averaged).
+Sub-App showing choropleth maps of 4 indicators from the Odisseia dataset. Uses preprocessed municipality data and preprocessed Odisseia data (only selected 4 indicators and have been averaged).
