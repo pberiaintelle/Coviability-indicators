@@ -58,7 +58,7 @@ for q in Types:
         visible=False,
         subplot='mapbox1',
         hovertemplate = "<b>%{text}</b><br><br>" +
-                        "Price: %{z}<br>" +
+                        "Value: %{z}<br>" +
                         "<extra></extra>")) # "<extra></extra>" means we don't display the info in the secondary box, such as trace id.
     
 trace1[0]['visible'] = True
@@ -116,7 +116,9 @@ layout = go.Layout(
         'anchor': 'y2',
         'autorange': 'reversed',
     },
-    margin=dict(l=100, r=20, t=70, b=70),
+    margin=dict(l=20, r=20, t=70, b=70),
+    width=1000,
+    height=800,
     paper_bgcolor='rgb(204, 204, 204)',
     plot_bgcolor='rgb(204, 204, 204)',
 )
