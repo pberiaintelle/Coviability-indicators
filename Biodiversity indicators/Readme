@@ -1,1 +1,3 @@
-
+README file
+R file that calculates species richness (number of species) for every municipality and for a grid of 0.1 degrees. 
+The data used is the available data from GBIF, iNaturalist and IUCN merged downloaded for the study area extent.
