@@ -1,12 +1,10 @@
 # -*- coding: utf-8 -*-
 
 import json
-
 import pandas as pd
 import geopandas as gpd
 import plotly
 import plotly.graph_objects as go
-
 import dash
 from dash import dcc, html, Input, Output
 #C:/Users/pablo/Documents/IRD/src/
@@ -17,8 +15,11 @@ with open('order_mun.geojson') as json_data:
     mun_data = json.load(json_data)
     # Convert the GeoJSON data to a GeoDataFrame
 mun = gpd.GeoDataFrame.from_features(mun_data['features'])
-#mun = gpd.read_file('order_mun.geojson')
+# Reproject to EPSG 3857 (Web Mercator)
+mun.crs = 'epsg:3857'
 mun = mun.set_index('CD_MUN')
+#mun = gpd.read_file('order_mun.geojson')
+#mun = mun.set_index('CD_MUN')
 # mapbox token
 mapbox_accesstoken = 'pk.eyJ1IjoicGFibG9iZXJpYWluIiwiYSI6ImNsbGdtaWYwNjEzNjEzZXFodnc5MDU3ODYifQ.45XStASb0dbFZMGU0yGTMw'
 
@@ -47,9 +48,9 @@ trace1 = []
 # Municipalities order should be the same as "id" passed to location
 for q in Types:
     trace1.append(go.Choroplethmapbox(
-        geojson = mun,
-        locations = od['CD_MUN'].tolist(),
-        z = od[q].tolist(), 
+        geojson = mun.__geo_interface__,
+        locations = od.CD_MUN,
+        z = od[q].tolist(),
         colorscale = pl_deep,
         text = ods, 
         colorbar = dict(thickness=20, ticklen=3),
