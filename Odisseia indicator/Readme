@@ -1,3 +1,3 @@
 ####README file#####
 Sub-App showing choropleth maps of 4 indicators from the Odisseia dataset. Uses preprocessed municipality data and preprocessed Odisseia data (only selected 4 indicators and have been averaged).
-For each municipality shows the time series for the 4 indicators.
+For each municipality shows the time series line plot for the 4 indicators.
