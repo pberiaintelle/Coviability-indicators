@@ -34,17 +34,17 @@ ods=od['NM_MUN'].str.title().tolist()
 #od['Year'] = od['Year'].astype(str)
 
 pl_deep = [
-    [0.0, 'rgb(255, 0, 0)'],     # Red
-    [0.1, 'rgb(255, 51, 0)'],    # Red-orange
-    [0.2, 'rgb(255, 102, 0)'],   # Orange
-    [0.3, 'rgb(255, 153, 0)'],   # Orange-yellow
-    [0.4, 'rgb(255, 204, 0)'],   # Yellow
-    [0.5, 'rgb(255, 255, 0)'],   # Yellow
-    [0.6, 'rgb(204, 255, 0)'],   # Yellow-green
-    [0.7, 'rgb(153, 255, 0)'],   # Green-yellow
-    [0.8, 'rgb(102, 255, 0)'],   # Green
-    [0.9, 'rgb(51, 255, 0)'],    # Green
-    [1.0, 'rgb(0, 255, 0)']      # Green
+    [0.0, 'rgb(255, 102, 102)'],   # Light Red
+    [0.1, 'rgb(255, 128, 102)'],  # Light Orange-red
+    [0.2, 'rgb(255, 153, 102)'],  # Light Orange
+    [0.3, 'rgb(255, 179, 102)'],  # Light Orange-yellow
+    [0.4, 'rgb(255, 204, 102)'],  # Light Yellow
+    [0.5, 'rgb(204, 255, 153)'],  # Light Yellow-green
+    [0.6, 'rgb(153, 255, 153)'],  # Light Green-yellow
+    [0.7, 'rgb(102, 255, 102)'],  # Light Green
+    [0.8, 'rgb(102, 204, 102)'],  # Light Green with a hint of blue
+    [0.9, 'rgb(102, 153, 102)'],  # Light Green with more blue
+    [1.0, 'rgb(102, 255, 102)']   # Light Green
 ]
 
 Types = ['Mortality','DAP Person','Amount of employed people','% basic education']    
