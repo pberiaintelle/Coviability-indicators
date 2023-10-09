@@ -1,0 +1,19 @@
+Load packages
+Map bounding box selection
+Time range selection
+Dataframe extraction
+  #Socio-economic change
+  #Population density
+  #Odisseia indicators
+  #Land Use MapBiomas
+  #Vegetation indices
+    #PlanetScope
+    #Landsat
+  #Biodiversity
+  #Soil organic carbon
+Indicator calculation & creating indicator dataframe
+Sunburst chart and time series
+Parallel coordinate plot
+Appendix
+Appendix 1: Biodiversity data for the entire study area
+
