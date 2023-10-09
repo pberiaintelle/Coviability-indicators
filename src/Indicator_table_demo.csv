@@ -1,0 +1,29 @@
+Domain,Theme,Subcategory,Indicator,Values,Data source,Spatial resolution,Time series,Principle,CI
+Vegetation change,Spectral index,Planet TS,NDVI,,Planet_NICFI,5m,2015-Present,"P1, P2",Coviability change indicators
+Vegetation change,Spectral index,Planet TS,NDWI,,Planet_NICFI,5m,2015-Present,"P1, P2",Coviability change indicators
+Vegetation change,Spectral index,Planet TS,CIG,,Planet_NICFI,5m,2015-Present,"P1, P2",Coviability change indicators
+Vegetation change,Spectral index,Landsat TS,CIG_L,,Landsat 5_8,30m,1984-Present,"P1, P2",Coviability change indicators
+Vegetation change,Spectral index,Landsat TS,NDVI_L,,Landsat 5_8,30m,1984-Present,"P1, P2",Coviability change indicators
+Vegetation change,Spectral index,Landsat TS,NDWI_L,,Landsat 5_8,30m,1984-Present,"P1, P2",Coviability change indicators
+Vegetation change,Spectral index,Landsat TS,NBR,,Landsat 5_8,30m,1984-Present,"P1, P2",Coviability change indicators
+Vegetation change,Spectral index,Landsat TS,EVI,,Landsat 5_8,30m,1984-Present,"P1, P2",Coviability change indicators
+Vegetation change,Spectral index,Landsat TS,GSAVI,,Landsat 5_8,30m,1984-Present,"P1, P2",Coviability change indicators
+Vegetation change,Spectral index,Landsat TS,BI,,Landsat 5_7_9,30m,1984-Present,"P1, P2",Coviability change indicators
+Land use change,Agriculture,Mosaic of Agriculture and Pasture,srf chg agriculture and pasture,,MapBiomas,30m,1985-Present,P2,Coviability change indicators
+Land use change,Agriculture,Pasture,srf chg pasture,,MapBiomas,30m,1985-Present,P2,Coviability change indicators
+Land use change,Agriculture,Sugar cane,srf chg sugar cane,,MapBiomas,30m,1985-Present,P2,Coviability change indicators
+Land use change,Agriculture,Mosaic of Crops,srf chg crop,,MapBiomas,30m,1985-Present,P2,Coviability change indicators
+Land use change,Forest,Forest formation,srf chg forest,,MapBiomas,30m,1985-Present,P2,Coviability change indicators
+Land use change,Forest,Mangrove,srf chg mangrove,,MapBiomas,30m,1985-Present,P2,Coviability change indicators
+Land use change,Forest,Forest plantation,srf chg forest plantation,,MapBiomas,30m,1985-Present,P2,Coviability change indicators
+Land use change,Forest,Savanna formation,srf chg savanna,,MapBiomas,30m,1985-Present,P2,Coviability change indicators
+Land use change,Urban,Urban,srf chg urban,,MapBiomas,30m,1985-Present,P2,Coviability change indicators
+Land use change,Grassland,Grassland,srf chg grassland,,MapBiomas,30m,1985-Present,P2,Coviability change indicators
+Soil,Soil parameters,Soil,Soil organic carbon %,,Embrapa Geoportal,90m,2021 alone,,Coviability change indicators
+Biodiversity,Occurrence,Occurrence,Nbr of species,,GBIF+iNaturalist+IUCN,Point occurrence,1980-2023,P1,Coviability change indicators
+Biodiversity,Status,Status,% of endangered species,,IUCN,Point occurrence,1980-2023,P1,Coviability change indicators
+Socio-economic change,Employment,Employment,Amount of employed people,,Oddisseia,Municipality,2007-2018,P1,Coviability change indicators
+Socio-economic change,Population,Population,Population per pixel,,WorldPop,100m,2010-2015-2020,"P1, P2",Coviability change indicators
+Socio-economic change,Health,Health,Mortality,,Oddisseia,Municipality,1990-2019,,Coviability change indicators
+Socio-economic change,Education Level,Education Level,% basic education,,Oddisseia,Municipality,2017-2021,P5,Coviability change indicators
+Socio-economic change,Resilience,Resilience,DAP Person,,Oddisseia,Municipality,2014-2020,P7,Coviability change indicators
